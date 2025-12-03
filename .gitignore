@@ -23,5 +23,4 @@ logs
 .env.*
 !.env.example
 
-/prisma
 /server/generated/prisma
