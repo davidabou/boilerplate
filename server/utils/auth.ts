@@ -22,9 +22,9 @@ export const auth = betterAuth({
 })
 
 function getBaseURL() {
-	let baseURL = process.env.BETTER_AUTH_URL
+  let baseURL = process.env.BETTER_AUTH_URL
 
-	baseURL ??= getRequestURL(useEvent()).origin
+  baseURL ??= getRequestURL(useEvent()).origin
 
-	return baseURL
+  return baseURL
 }
