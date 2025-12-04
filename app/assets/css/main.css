@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+:root {
+  --ui-radius: 0.4rem;
+}
+
+@theme {
+  --font-sans: 'IBM Plex Sans', sans-serif;
+}
