@@ -2,7 +2,9 @@
 @import '@nuxt/ui';
 
 :root {
-  --ui-radius: 0.4rem;
+  --ui-radius: 0rem;
+
+  --color-epitech-500: #0033ff;
 }
 
 @theme {

@@ -9,5 +9,11 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/test-utils',
     '@nuxt/ui'
-  ]
+  ],
+
+  fonts: {
+    defaults: {
+      weights: [400, 500, 600, 700]
+    }
+  },
 })
